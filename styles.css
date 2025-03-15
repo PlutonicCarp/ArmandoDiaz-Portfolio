@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: #48e;
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    color: #f2f2f2;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 16px;
+}
+
+
+.navbar a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover{
+    background-color: #ddd;
+    color: black;
+    cursor: pointer;
+}
+
+.about-container{
+    background: white;
+    padding: 20px;
+    padding-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 80%;
+    margin-left: 7.5%;
+}
+
+.about-container h1{
+    margin-top: 0;
+}
+
+.about-container > img{
+    display: block;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+/*SKILLS SECTION */
+
+h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.skills-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+.skills-card > ul > img{
+    height: 100px;
+}
+
+.skills-card > ul {
+    background-color: #D9EAFD;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.skills-card > ul > button{
+    background-color: #F8FAFC;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.skills-card > ul > button:hover{
+    background-color: #9AA6B2;
+    cursor: pointer;
+}
+
+/*Projects */
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+.project-card > ul > img{
+    height: 100px;
+}
+
+.project-card > ul {
+    background-color: #D9EAFD;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.project-card > ul > button{
+    background-color: #F8FAFC;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.project-card > ul > button:hover{
+    background-color: #9AA6B2;
+    cursor: pointer;
+}
+
+
+/* RECOMENDATIONS */
+
+.recomendation-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+.recomendation-card > ul > img{
+    display: block;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.recomendation-card > ul {
+    background-color: #D9EAFD;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* RECOMENDATIONS STYLES */
+.add-recomendation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.form-container h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-container textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.form-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
